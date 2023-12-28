@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Navigation from "./components/Navigation";
+import Project from "./components/Project";
 
 import { CiLight, CiDark } from "react-icons/ci";
 import { VscGithub } from "react-icons/vsc";
@@ -37,18 +38,18 @@ function App() {
           <h1 className="text-3xl mt-2">Sead Mašetić</h1>
           <h3 className="text-[#A9A9A9] text-lg">IT Student at International Burch University</h3>
           <div className="flex p-3 space-x-8 text-3xl text-[#A9A9A9]">
-            <VscGithub className="transition hover:text-black cursor-pointer"/>
-            <PiInstagramLogo className="transition hover:text-black cursor-pointer"/>
-            <PiLinkedinLogo className="transition hover:text-black cursor-pointer"/>
+            <VscGithub className="transition hover:text-[#0096FF] cursor-pointer"/>
+            <PiInstagramLogo className="transition hover:text-[#0096FF] cursor-pointer"/>
+            <PiLinkedinLogo className="transition hover:text-[#0096FF] cursor-pointer"/>
           </div>
-          <div className="flex space-x-6 mt-8 ml-28">
+          <div className="flex space-x-6 mt-8">
             <div className="text-end text-[#A9A9A9]">
               <h3 className="pb-14">About</h3>
               <h3 className="mt-[295px] pb-10">Tech stack</h3>
               <h3 className="pb-36">Academic journey</h3>
               <h3 className="pb-24">Career path</h3>
               <h3 className="mb-44 pb-96">Projects</h3>
-              <h3>Contact me</h3>
+              <h3 className="mt-[750px]">Contact me</h3>
             </div>
             <div>
               <p className="w-80 pb-16">
@@ -81,15 +82,28 @@ function App() {
                 <h1 className="font-bold">2023 -</h1>
                 <h3 className="text-[#A9A9A9]">Laboratory demonstrator for the course Programming I</h3>
               </div>
-              <div>
-                <h1 className="mt-[72px] font-bold">YUMP.IN</h1>
-                <img src={yump} alt="" className="h-52 w-96 rounded-xl cursor-pointer"></img>
+              <div className="space-y-8">
+                <Project 
+                image={yump} 
+                title="yump.in"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                code="https://www.github.com/seomasha"
+                demo="https://www.yump.in"/>
 
-                <h1 className="mt-[72px] font-bold">STUDIUM</h1>
-                <img src={studium} className="h-52 w-96 rounded-xl cursor-pointer" alt=""></img>
+                <Project image={studium} 
+                title="studium"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                code="https://www.github.com/seomasha"
+                demo="https://www.yump.in"/>
               </div>
               <div>
-                <div className="flex mt-10 space-x-8">
+                <div className="flex mt-20 space-x-8">
                   <input type="text" placeholder="Your name" className="border border-black p-3 rounded-full outline-none"></input>
                   <input type="email" placeholder="Your email" className="border border-black p-3 rounded-full outline-none"></input>
                 </div>
@@ -100,6 +114,9 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <h1 className="bg-[#0096FF] text-white p-4">Copyright © 2023. All rights are reserved</h1>
         </div>
     </div>
   );
