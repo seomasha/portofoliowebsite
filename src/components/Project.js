@@ -7,7 +7,7 @@ function Project({image, title, description, code, demo}) {
   return (
     <div className='rounded-3xl mt-4 w-96'>
         <img src={image} alt='title' className='h-64 w-full rounded-2xl'></img>
-        <h1 className='uppercase text-center text-2xl mt-4'>{title}</h1>
+        <h1 className='uppercase text-center text-2xl mt-4 dark:text-white'>{title}</h1>
         <p className='w-full text-center text-sm mt-4 text-[#A9A9A9]'>
           {description}
         </p>
