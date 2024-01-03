@@ -1,92 +1,18 @@
-import ProfileBlock from "./components/ProfileBlock";
-import NavBlock from "./components/NavBlock";
-import DownloadBlock from "./components/DownloadBlock";
-import IconBlock from "./components/IconBlock";
-import ContactBlock from "./components/ContactBlock";
-import TechItem from "./components/TechItem";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import profile from './ui/profile.png';
-import credentials from './ui/credentials.png';
-import projects from './ui/projects.png'
-import cv from './ui/cv.png'
-
-import { RxGithubLogo, RxLinkedinLogo, RxInstagramLogo, RxTwitterLogo } from "react-icons/rx";
-import { FaReact, FaJava } from "react-icons/fa";
-import { FaNode } from "react-icons/fa6";
-import { DiMongodb } from "react-icons/di";
-import { SiSolidity, SiMysql } from "react-icons/si";
-import TechStackBlock from "./components/TechStackBlock";
-
+import Home from "./screens/Home";
+import AboutMe from "./screens/AboutMe";
 
 function App() {
 
   return (
-    <div  className="bg-[#060606] h-full text-white font-main ">
-      <div className="flex justify-between p-6">
-        <h1 className="text-3xl"><span className="font-bold text-[#a67c00]">sead</span><span className="font-thin">masetic</span></h1>
-        <h1 className="text-[#a67c00] text-xl border border-[#a67c00] py-3 px-6 rounded-3xl hover:bg-[#a67c00] hover:text-black transition cursor-pointer">Let's talk</h1>
-      </div>
-      <div className="flex justify-center space-x-4">
-        <ProfileBlock 
-        height={300} 
-        width={600} 
-        image={profile}
-        subtitle="Who am I?"
-        title="Sead Masetic"
-        description="Second year IT student at International Burch University who is passionate about Web and Mobile development"/>
-
-        <NavBlock 
-        height={250} 
-        width={250}
-        image={credentials}
-        subtitle="Find more"
-        title="About me"/>
-
-        <NavBlock 
-        height={250} 
-        width={250}
-        image={projects}
-        subtitle="Explore"
-        title="my projects"/>
-      </div>
-      <div className="flex justify-center space-x-4 mt-4">
-          <DownloadBlock 
-          height={250} 
-          width={250}
-          image={cv}
-          subtitle="download"
-          title="my cv"/>
-
-          <TechStackBlock 
-          height={250} 
-          width={600}
-          icon={<TechItem icon={<FaReact />} label="React & React native"/>}
-          icon2={<TechItem icon={<FaJava />} label="Java & Java Spring"/>}
-          icon3={<TechItem icon={<FaNode />} label="Node.js"/>}
-          icon4={<TechItem icon={<DiMongodb />} label="MongoDB"/>}
-          icon5={<TechItem icon={<SiSolidity />} label="Solidity"/>}
-          icon6={<TechItem icon={<SiMysql />} label="MySQL"/>}
-          subtitle="This is my"
-          title="Tech stack"/>
-
-          <IconBlock 
-          height={250} 
-          width={250}
-          icon={<RxGithubLogo />}
-          icon2={<RxLinkedinLogo />}
-          icon3={<RxInstagramLogo />}
-          icon4={<RxTwitterLogo />}
-          link="https://www.github.com/"
-          link2="https://www.linkedin.com/in/sead-masetic-26871a202/"
-          link3="https://www.instagram.com/sead.masetic/"
-          link4="https://www.twitter.com/seadmasetic"
-          subtitle="Explore"
-          title="my socials"/>
-      </div>
-      <ContactBlock 
-          height={300}
-          width={1125}/>
-      <h1 className="text-center p-4">Copyright © 2024. All rights are reserved</h1>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" Component={Home} />
+          <Route path="/aboutme" Component={AboutMe} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

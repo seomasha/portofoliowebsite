@@ -2,7 +2,7 @@ import React from 'react'
 
 function Block({height, width, image, subtitle, title, description}) {
   return (
-    <div className='bg-[#1D1D1D] flex rounded-3xl p-3' style={{height: height, width: width}}>
+    <div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-3' style={{height: height, width: width}}>
         <img alt={title} src={image} className='h-[250px] w-[250px] p-3 rounded-3xl my-auto'/>
         <div className='my-auto'>
             <h3 className='uppercase text-[#A9A9A9] text-sm'>{subtitle}</h3>
