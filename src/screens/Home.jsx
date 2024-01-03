@@ -47,7 +47,8 @@ function Home() {
         width={250}
         image={projects}
         subtitle="Explore"
-        title="my projects"/>
+        title="my projects"
+        path="/projects"/>
       </div>
       <div className="flex justify-center space-x-4 mt-4">
           <DownloadBlock 
