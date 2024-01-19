@@ -17,7 +17,7 @@ function AboutMe() {
             </div>
             <div className='w-5/12 h-full'>
                 <div className='fixed bg-gradient-to-r from-[#232526] to-[#414345] h-5/12 w-3/12 text-center rounded-3xl p-3 top-[20%] left-[8%]'>
-                    <img src={profile} className='w-3/4 h-3/4 mx-auto rounded-3xl' alt={profile}/>
+                    <img src={profile} className='w-11/12 h-11/12 mx-auto rounded-3xl' alt={profile}/>
                     <h1 className='text-3xl mt-8'>Sead Masetic</h1>
                     <h3 className='text-[#A9A9A9]'>Feel free to contact me</h3>
                     <div className='flex justify-evenly text-2xl text-[#A9A9A9] mt-8'>
@@ -26,7 +26,7 @@ function AboutMe() {
                         <RxLinkedinLogo className='hover:text-[#a67c00] cursor-pointer transition'/>
                         <RxTwitterLogo className='hover:text-[#a67c00] cursor-pointer transition'/>
                     </div>
-                    <h1 className="text-[#a67c00] w-10/12 mx-auto text-xl border border-[#a67c00] py-1 px-2 rounded-3xl hover:bg-[#a67c00] hover:text-black transition cursor-pointer mt-4">Let's talk</h1>
+                    <Link to="/contactme"><h1 className="text-[#a67c00] w-10/12 mx-auto text-xl border border-[#a67c00] py-1 px-2 rounded-3xl hover:bg-[#a67c00] hover:text-white transition cursor-pointer mt-4">Let's talk</h1></Link>
                 </div>
             </div>
             <div className='w-7/12 pb-8'>

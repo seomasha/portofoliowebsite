@@ -77,16 +77,26 @@ function Home() {
           icon2={<RxLinkedinLogo />}
           icon3={<RxInstagramLogo />}
           icon4={<RxTwitterLogo />}
-          link="https://www.github.com/"
+          link="https://www.github.com/seomasha"
           link2="https://www.linkedin.com/in/sead-masetic-26871a202/"
           link3="https://www.instagram.com/sead.masetic/"
           link4="https://www.twitter.com/seadmasetic"
           subtitle="Explore"
           title="my socials"/>
       </div>
-      <ContactBlock 
-          height={300}
-          width={1125}/>
+      <div className='flex justify-center space-x-4 mt-4'>
+        {/*
+          <div className='w-[425px] h-[250px] bg-gradient-to-r from-[#232526] to-[#414345] rounded-3xl p-4 flex justify-evenly items-center'>
+            <div className='bg-[#737373] w-[150px] h-[150px]'>
+
+            </div>
+            <div className='bg-[#737373] w-[150px] h-[150px]'>
+
+            </div>
+          </div>
+      */}
+          <ContactBlock />
+      </div>
       <h1 className="text-center p-4">Copyright © 2024. All rights are reserved</h1>
     </div>
   )

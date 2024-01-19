@@ -7,7 +7,7 @@ import { RxExternalLink } from "react-icons/rx";
 function ProjectBlock({image, title, subtitle, path}) {
   return (
     <div className='bg-gradient-to-r from-[#232526] to-[#414345] w-10/12 rounded-3xl p-3 mx-auto'>
-        <img src={image} className='mx-auto rounded-3xl p-3'/>
+        <img src={image} className='mx-auto rounded-3xl p-3' alt='title'/>
         <div className='mx-4'>
             <h3 className='text-[#A9A9A9] uppercase'>{subtitle}</h3>
             <div className='flex justify-between'>
