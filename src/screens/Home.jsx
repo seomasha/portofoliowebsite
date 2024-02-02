@@ -24,43 +24,30 @@ function Home() {
   return (
     <div className="bg-[#060606] h-full text-white font-main ">
       <Header />
-      <div className="flex justify-center space-x-4">
+      <div className="md:flex justify-center space-x-4 p-3">
         <ProfileBlock 
-        height={300} 
-        width={600} 
         image={profile}
         subtitle="Who am I?"
         title="Sead Masetic"
         description="Second year IT student at International Burch University who is passionate about Web and Mobile development"/>
 
-        <NavBlock 
-        height={250} 
-        width={250}
-        image={credentials}
-        subtitle="Find more"
-        title="About me"
-        path="/aboutme"/>
+        <div className='flex mt-4 md:flex justify-evenly md:space-x-4'>
+          <NavBlock 
+          image={credentials}
+          subtitle="Find more"
+          title="About me"
+          path="/aboutme"/>
 
 
-        <NavBlock 
-        height={250} 
-        width={250}
-        image={projects}
-        subtitle="Explore"
-        title="my projects"
-        path="/projects"/>
+          <NavBlock 
+          image={projects}
+          subtitle="Explore"
+          title="my projects"
+          path="/projects"/>
+        </div>
       </div>
-      <div className="flex justify-center space-x-4 mt-4">
-          <DownloadBlock 
-          height={250} 
-          width={250}
-          image={cv}
-          subtitle="download"
-          title="my cv"/>
-
+      <div className="flex justify-center space-x-6">
           <TechStackBlock 
-          height={250} 
-          width={600}
           icon={<TechItem icon={<FaReact />} label="React & React native"/>}
           icon2={<TechItem icon={<FaJava />} label="Java & Java Spring"/>}
           icon3={<TechItem icon={<FaNode />} label="Node.js"/>}
@@ -71,8 +58,6 @@ function Home() {
           title="Tech stack"/>
 
           <IconBlock 
-          height={250} 
-          width={250}
           icon={<RxGithubLogo />}
           icon2={<RxLinkedinLogo />}
           icon3={<RxInstagramLogo />}
@@ -85,6 +70,10 @@ function Home() {
           title="my socials"/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
+        <DownloadBlock 
+            image={cv}
+            subtitle="download"
+            title="my cv"/>
           <ContactBlock />
       </div>
       <h1 className="text-center p-4">Copyright © 2024. All rights are reserved</h1>

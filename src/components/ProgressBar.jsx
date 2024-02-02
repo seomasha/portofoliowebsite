@@ -4,7 +4,6 @@ function ProgressBar({bgcolor, completed}) {
 
     const containerStyles = {
         height: 20,
-        width: '70%',
         backgroundColor: "#e0e0de",
         borderRadius: 50,
       }
@@ -26,7 +25,7 @@ function ProgressBar({bgcolor, completed}) {
 
 
     return (
-        <div style={containerStyles}>
+        <div style={containerStyles} className='sm:w-8/12'>
             <div style={fillerStyles}>
                 <span style={labelStyles}>{`${completed}%`}</span>
             </div>
