@@ -21,11 +21,7 @@ function AboutMe() {
         if(isInView) {
             mainControls.start("visible")
         }
-<<<<<<< HEAD
-    }, [isInView])
-=======
     }, [isInView, mainControls])
->>>>>>> 2ba1de2 (changes)
 
     return (
         <div className="bg-[#060606] h-full text-white font-main flex space-x-8">

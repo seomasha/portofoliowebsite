@@ -1,35 +1,7 @@
 [
-    {
-        "id": 1,
-        "title": "Guess my number",
-        "subtitle": "Mobile application",
-        "image": "/src/ui/profile.png",
-        "path": "/guessmynumber"
-    },
 
     {
         "id": 1,
-        "title": "Guess my number",
-        "subtitle": "Mobile application",
-        "image": "/src/ui/profile.png",
-        "path": "/guessmynumber"
-    },
-
-    {
-        "id": 1,
-        "title": "Guess my number",
-        "subtitle": "Mobile application",
-        "image": "/src/ui/profile.png",
-        "path": "/guessmynumber"
-    },
-
-    {
-        "id": 1,
-        "title": "Guess my number",
-        "subtitle": "Mobile application",
-        "image": "/src/ui/profile.png",
-        "path": "/guessmynumber"
-=======
         "title": "Expense tracker",
         "subtitle": "Mobile application",
         "image": "expense.png",
