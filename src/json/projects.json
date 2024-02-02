@@ -1,7 +1,6 @@
 [
     {
         "id": 1,
-<<<<<<< HEAD
         "title": "Guess my number",
         "subtitle": "Mobile application",
         "image": "/src/ui/profile.png",
@@ -77,6 +76,5 @@
         "subtitle": "Mobile application",
         "image": "guessmynumber.png",
         "path": "https://github.com/seomasha/guessmynumber"
->>>>>>> 2ba1de2 (changes)
     }
 ]
