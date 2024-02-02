@@ -20,6 +20,8 @@ import { DiMongodb } from "react-icons/di";
 import { SiSolidity, SiMysql } from "react-icons/si";
 import TechStackBlock from "../components/TechStackBlock";
 
+import {motion} from "framer-motion";
+
 function Home() {
   return (
     <div className="bg-[#060606] h-full text-white font-main ">
@@ -85,16 +87,6 @@ function Home() {
           title="my socials"/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        {/*
-          <div className='w-[425px] h-[250px] bg-gradient-to-r from-[#232526] to-[#414345] rounded-3xl p-4 flex justify-evenly items-center'>
-            <div className='bg-[#737373] w-[150px] h-[150px]'>
-
-            </div>
-            <div className='bg-[#737373] w-[150px] h-[150px]'>
-
-            </div>
-          </div>
-      */}
           <ContactBlock />
       </div>
       <h1 className="text-center p-4">Copyright © 2024. All rights are reserved</h1>
