@@ -20,8 +20,11 @@ import { DiMongodb } from "react-icons/di";
 import { SiSolidity, SiMysql } from "react-icons/si";
 import TechStackBlock from "../components/TechStackBlock";
 
+<<<<<<< HEAD
 import {motion} from "framer-motion";
 
+=======
+>>>>>>> 2ba1de2 (changes)
 function Home() {
   return (
     <div className="bg-[#060606] h-full text-white font-main ">

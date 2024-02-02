@@ -7,8 +7,11 @@ import { RxReset } from 'react-icons/rx'
 import ProjectBlock from '../components/ProjectBlock'
 import projects from '../json/projects.json'
 
+<<<<<<< HEAD
 import profile from '../ui/profile.png'
 
+=======
+>>>>>>> 2ba1de2 (changes)
 import { motion } from 'framer-motion';
 
 function Projects() {
@@ -35,7 +38,11 @@ function Projects() {
                       image={project.image}
                       title={project.title}
                       subtitle={project.subtitle}
+<<<<<<< HEAD
                       path="/thankyou"
+=======
+                      path={project.path}
+>>>>>>> 2ba1de2 (changes)
                     />
                 </motion.div>
               )

@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+<<<<<<< HEAD
         "title": "Guess my number",
         "subtitle": "Mobile application",
         "image": "/src/ui/profile.png",
@@ -29,5 +30,53 @@
         "subtitle": "Mobile application",
         "image": "/src/ui/profile.png",
         "path": "/guessmynumber"
+=======
+        "title": "Expense tracker",
+        "subtitle": "Mobile application",
+        "image": "expense.png",
+        "path": "https://github.com/seomasha/expensetracker"
+    },
+
+    {
+        "id": 2,
+        "title": "Meals",
+        "subtitle": "Mobile application",
+        "image": "meals.png",
+        "path": "https://github.com/seomasha/expensetracker"
+    },
+
+    {
+        "id": 3,
+        "title": "Studium",
+        "subtitle": "Mobile application",
+        "image": "studium.png",
+        "path": "https://github.com/TelemachFondacija/gitignore"
+    },
+
+    {
+        "id": 4,
+        "title": "Yump.IN",
+        "subtitle": "Website",
+        "image": "yump.png",
+        "path": "https://yump.in"
+    },
+
+
+    {
+        "id": 5,
+        "title": "Altoka digital - in progress",
+        "subtitle": "Website",
+        "image": "inprogress.png",
+        "path": ""
+    },
+
+
+    {
+        "id": 6,
+        "title": "Guess my number",
+        "subtitle": "Mobile application",
+        "image": "guessmynumber.png",
+        "path": "https://github.com/seomasha/guessmynumber"
+>>>>>>> 2ba1de2 (changes)
     }
 ]
