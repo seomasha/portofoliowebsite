@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Block({image, subtitle, title, description}) {
   return (
-    <motion.div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-3 max-h-[300px] max-w-[600px]'
+    <motion.div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-3 max-h-[300px] max-w-[600px] lg:mr-2'
     initial={{scale: 1.1}}
     animate={{scale: 1}}
     transition={{ type: "spring", stiffness: 100, duration: 1 }}>

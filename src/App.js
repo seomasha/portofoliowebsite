@@ -8,7 +8,7 @@ import ThankYou from "./screens/ThankYou";
 function App() {
 
   return (
-    <div>
+    <div className="bg-black">
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />

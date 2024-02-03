@@ -12,7 +12,7 @@ function TechItem({icon, label}) {
       onMouseLeave={() => setHovered(false)}
     >
       <span>{icon}</span>
-      {isHovered && <h1 className="text-sm absolute leading-3 w-12">{label}</h1>}
+      {isHovered && <h1 className="text-[8px] md:text-sm absolute leading-3 w-12">{label}</h1>}
     </div>
   )
 };

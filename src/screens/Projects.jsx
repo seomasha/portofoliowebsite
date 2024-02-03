@@ -19,7 +19,7 @@ function Projects() {
   }, [])
 
   return (
-    <div className="bg-[#060606] h-screen w-screen text-white font-main p-4">
+    <div className="bg-[#060606] h-full w-full text-white font-main p-4">
         <div>
             <Link to="/"><RxReset className='fixed text-3xl text-[#A9A9A9] hover:text-[#a67c00] cursor-pointer'/></Link>
         </div>

@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 function NavBlock({image, subtitle, title, button, path}) {
   return (
-    <motion.div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-4 mt-auto flex-col h-[150px] w-[150px] max-h-[250px] max-w-[250px] md:h-[250px] md:w-[250px]'
+    <motion.div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-4 mt-auto flex-col h-[200px] w-[200px] max-h-[250px] max-w-[250px] md:h-[250px] md:w-[250px]'
     initial={{scale: 1.1}}
     animate={{scale: 1}}
     transition={{ type: "spring", stiffness: 100 }}>

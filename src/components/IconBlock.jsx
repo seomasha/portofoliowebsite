@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function IconBlock({image, subtitle, title, icon, icon2, icon3, icon4, link, link2, link3, link4, link5, link6, icon5, icon6}) {
   return (
-    <motion.div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-4 md:mt-auto flex-col justify-between h-[180px] w-[180px] md:h-[250px] md:w-[550px]' 
+    <motion.div className='bg-gradient-to-r from-[#232526] to-[#414345] flex rounded-3xl p-4 md:mt-auto flex-col justify-between h-[200px] w-[200px] md:h-[250px] md:w-[555px]' 
     initial={{scale: 1.1}}
     animate={{scale: 1}}
     transition={{ type: "spring", stiffness: 100, duration: 1 }}>

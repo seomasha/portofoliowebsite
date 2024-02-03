@@ -24,14 +24,14 @@ function Home() {
   return (
     <div className="bg-[#060606] h-full text-white font-main ">
       <Header />
-      <div className="md:flex justify-center space-x-4 p-3">
+      <div className="md:flex justify-center p-3">
         <ProfileBlock 
         image={profile}
         subtitle="Who am I?"
         title="Sead Masetic"
         description="Second year IT student at International Burch University who is passionate about Web and Mobile development"/>
 
-        <div className='flex mt-4 md:flex justify-evenly md:space-x-4'>
+        <div className='flex mt-4 justify-center space-x-2 md:flex md:space-x-4'>
           <NavBlock 
           image={credentials}
           subtitle="Find more"
@@ -46,7 +46,7 @@ function Home() {
           path="/projects"/>
         </div>
       </div>
-      <div className="flex justify-center space-x-6">
+      <div className="flex justify-center space-x-2 px-4">
           <TechStackBlock 
           icon={<TechItem icon={<FaReact />} label="React & React native"/>}
           icon2={<TechItem icon={<FaJava />} label="Java & Java Spring"/>}
@@ -69,12 +69,14 @@ function Home() {
           subtitle="Explore"
           title="my socials"/>
       </div>
-      <div className='flex justify-center space-x-4 mt-4'>
+      <div className='md:flex md:flex-row flex-col justify-center lg:space-x-4 mt-4'>
         <DownloadBlock 
             image={cv}
             subtitle="download"
             title="my cv"/>
-          <ContactBlock />
+          <div className='p-4 md:p-0'>
+            <ContactBlock />
+          </div>
       </div>
       <h1 className="text-center p-4">Copyright © 2024. All rights are reserved</h1>
     </div>

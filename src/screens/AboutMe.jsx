@@ -28,8 +28,8 @@ function AboutMe() {
             <div className='p-4'>
                 <Link to="/"><RxReset className='fixed text-3xl text-[#A9A9A9] hover:text-[#a67c00] cursor-pointer'/></Link>
             </div>
-            <div className='w-5/12 h-full mx-12 mt-4 sm:mx-56'>
-                <motion.div className='xl:fixed lg:fixed md:fixed min-w-[300px] bg-gradient-to-r from-[#232526] to-[#414345] h-5/12 w-3/12 text-center rounded-3xl p-3 xl:top-[20%] xl:left-[8%] lg:top-[20%] lg:left-[8%] md:left-[8%] md:top-[20%] '
+            <div className='w-5/12 h-full mx-12 mt-4 sm:mx-auto'>
+                <motion.div className='xl:fixed lg:fixed md:fixed min-w-[300px] bg-gradient-to-r from-[#232526] to-[#414345] h-5/12 w-3/12 text-center rounded-3xl p-3 xl:top-[20%] xl:left-[8%] lg:top-[20%] lg:left-[8%] md:left-[8%] md:top-[20%]'
                 initial={{scale: 1.1}}
                 animate={{scale: 1}}
                 transition={{ type: "spring", stiffness: 100, duration: 1 }}>
@@ -55,7 +55,7 @@ function AboutMe() {
             animate={mainControls}
             transition={{duration: 0.5, delay: 0.25}}>
                 <h1 className='text-xl uppercase mt-16'>About me</h1>
-                <p className='sm:w-8/12 mt-4 w-full px-4 sm:p-0'>
+                <p className='md:w-8/12 mt-4 w-full px-4 sm:p-0'>
                     Hey, I'm <span className='text-[#a67c00]'>Sead Masetic</span>, a 21-year-old navigating my way through the second year of IT at International Burch University. I am passionate about the world of Web and Mobile development. Open to opportunities? Always. I'm all about learning and beefing up my skillset. If you're into tech talks and chasing innovation, you'll find me in the mix. 
                     <br /><br />
                     My primary areas of interest is developing front end web applications using React and adding back end with Node.js. In the future I consider mixing up the back end using Java Spring and see what suits me the best! Recently I got very interested in mobile development so I started developing apps using React Native.
