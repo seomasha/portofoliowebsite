@@ -45,7 +45,7 @@ function AboutMe() {
                     <Link to="/"><h1 className="text-[#a67c00] w-10/12 mx-auto text-xl border border-[#a67c00] py-1 px-2 rounded-3xl hover:bg-[#a67c00] hover:text-white transition cursor-pointer mt-4">Open for work</h1></Link>
                 </motion.div>
             </div>
-            <motion.div className='sm:w-7/12 pb-8'
+            <motion.div className='sm:w-7/12 pb-8 mx-auto'
             ref={ref}
             variants={{
                 hidden: {opacity: 0, y: 75},
@@ -54,7 +54,7 @@ function AboutMe() {
             initial="hidden"
             animate={mainControls}
             transition={{duration: 0.5, delay: 0.25}}>
-                <h1 className='text-xl uppercase mt-16'>About me</h1>
+                <h1 className='text-xl uppercase mt-16 sm:text-center'>About me</h1>
                 <p className='md:w-8/12 mt-4 w-full px-4 sm:p-0'>
                     Hey, I'm <span className='text-[#a67c00]'>Sead Masetic</span>, a 21-year-old navigating my way through the second year of IT at International Burch University. I am passionate about the world of Web and Mobile development. Open to opportunities? Always. I'm all about learning and beefing up my skillset. If you're into tech talks and chasing innovation, you'll find me in the mix. 
                     <br /><br />
@@ -65,17 +65,17 @@ function AboutMe() {
 
                 <h3 className='mt-8 text-[#A9A9A9] sm:p-0 px-4'>2023 - PRESENT | International Burch University</h3>
                 <h3 className='text-lg leading-4 text-[#a67c00] sm:p-0 px-4'>Laboratory demonstrator</h3>
-                <p className='mt-4 sm:w-8/12 w-full sm:p-0 px-4'>At the first semester of my second year studies, I was a laboratory demonstrator for first year IT students. I was helping them understand programming fundamentals using Python.</p>
+                <p className='mt-4 md:w-8/12 w-full sm:p-0 px-4'>At the first semester of my second year studies, I was a laboratory demonstrator for first year IT students. I was helping them understand programming fundamentals using Python.</p>
 
                 <h1 className='text-xl uppercase mt-16'>Education</h1>
 
                 <h3 className='mt-8 text-[#A9A9A9] sm:p-0 px-4'>2018 - 2022 | Mixed high school in Gornji Vakuf</h3>
                 <h3 className='text-lg leading-4 text-[#a67c00] sm:p-0 px-4'>Computer and IT Electrician</h3>
-                <p className='mt-4 sm:w-8/12 sm:p-0 px-4'>I finished my high school studies in my local town. Here I started exploring more about the IT world and fell in love with web development. I was awarded with "The student of the generation" award because I had a GPA of 5.0/5.0 through all 4 years of my studies.</p>
+                <p className='mt-4 md:w-8/12 sm:p-0 px-4'>I finished my high school studies in my local town. Here I started exploring more about the IT world and fell in love with web development. I was awarded with "The student of the generation" award because I had a GPA of 5.0/5.0 through all 4 years of my studies.</p>
 
                 <h3 className='mt-8 text-[#A9A9A9] sm:p-0 px-4'>2022 - PRESENT | International Burch University</h3>
                 <h3 className='text-lg leading-4 text-[#a67c00] sm:p-0 px-4'>Bachelor of Information Technologies</h3>
-                <p className='mt-4 sm:w-8/12 sm:p-0 px-4'>At the moment, I am a undergraduate student at International Burch University and I just finished my third semester of studies. I enjoy studying here because the professors at the Univeristy are keeping up to date with the latest trends in the IT world.</p>
+                <p className='mt-4 md:w-8/12 sm:p-0 px-4'>At the moment, I am a undergraduate student at International Burch University and I just finished my third semester of studies. I enjoy studying here because the professors at the Univeristy are keeping up to date with the latest trends in the IT world.</p>
 
                 <h1 className='text-xl uppercase mt-16'>Skills</h1>
                 <div className='grid grid-row-cols grid-row-2 my-8 text-center'>

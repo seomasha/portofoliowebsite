@@ -25,7 +25,7 @@ function ProgressBar({bgcolor, completed}) {
 
 
     return (
-        <div style={containerStyles} className='sm:w-8/12'>
+        <div style={containerStyles} className='md:w-8/12'>
             <div style={fillerStyles}>
                 <span style={labelStyles}>{`${completed}%`}</span>
             </div>
