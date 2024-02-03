@@ -54,7 +54,7 @@ function AboutMe() {
             initial="hidden"
             animate={mainControls}
             transition={{duration: 0.5, delay: 0.25}}>
-                <h1 className='text-xl uppercase mt-16 sm:text-center'>About me</h1>
+                <h1 className='text-xl uppercase mt-16'>About me</h1>
                 <p className='md:w-8/12 mt-4 w-full px-4 sm:p-0'>
                     Hey, I'm <span className='text-[#a67c00]'>Sead Masetic</span>, a 21-year-old navigating my way through the second year of IT at International Burch University. I am passionate about the world of Web and Mobile development. Open to opportunities? Always. I'm all about learning and beefing up my skillset. If you're into tech talks and chasing innovation, you'll find me in the mix. 
                     <br /><br />
